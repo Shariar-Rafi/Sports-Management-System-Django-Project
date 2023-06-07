@@ -1,0 +1,45 @@
+
+{% extends "base.html" %}
+
+{% block title %}
+  Choose Payment
+  
+{% endblock title %}
+
+
+{% block body %}
+
+<div class="container">
+  <br><br><br><br>
+
+
+  <section class="gradient-custom" style=" background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+  linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+  linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+  radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+  radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  ">
+    <div class="container my-5 py-5">
+      <div class="row d-flex justify-content-center py-5">
+        <div class="col-md-7 col-lg-5 col-xl-4">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-4">
+              <center><label for="payment" style="font-family: fantasy;font-size: 20px;">Choose your payment option</label><br></center>
+             <a href="/BanglaPayment"><img src="/static/bkash.png" alt="bkash" style="height: 80px;width: 80px;"></a>
+             <a href="/BanglaPayment"><img src="/static/nagad.png" alt="nagad" style="height: 110px;width: 100px;"></a>
+             <a href="/BideshiPayment"><img src="/static/master.jpg" alt="master" style="height: 80px;width: 80px;"></a>
+             <a href="/BideshiPayment"><img src="/static/visa.png" alt="visa" style="height: 110px;width: 80px;"></a>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br><br><br>
+</div>
+  
+
+{% endblock body %}

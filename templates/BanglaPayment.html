@@ -1,0 +1,76 @@
+
+{% extends "base.html" %}
+
+{% block title %}
+  Bangla Payment
+  
+{% endblock title %}
+
+
+{% block body %}
+
+<div class="container">
+  <br><br><br><br>
+
+
+  <section class="gradient-custom" style=" background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+  linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+  linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+  radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+  radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+background-blend-mode: screen, color-dodge, overlay, difference, normal;
+  ">
+    <div class="container my-5 py-5">
+      <div class="row d-flex justify-content-center py-5">
+        <div class="col-md-7 col-lg-5 col-xl-4">
+          <div class="card" style="border-radius: 15px;">
+            <div class="card-body p-4">
+            
+                          <div class="d-flex align-items-center">
+                            <div>
+                              <i class="fab fa-cc-visa fa-4x text-black pe-3"></i>
+                            </div>
+                            <div>
+                            <label for="teka" style="font-size: 15px;font-family: fantasy;">Enter your bkash/nagad phone number</label>
+                            <input type="text" id="teka" name="teka">
+                            </div>
+                          </div>
+                          <br>
+                  
+              
+                            <div class="d-flex flex-row pb-3">
+                              <div class="rounded border border-primary border-2 d-flex w-100 p-3 align-items-center"
+                                style="background-color: rgba(18, 101, 241, 0.07);">
+                                <div class="d-flex align-items-center pe-3">
+                                  <input class="form-check-input" type="radio" name="radioNoLabelX" id="radioNoLabel11"
+                                    value="" aria-label="..." checked />
+                                </div>
+                                <div class="d-flex flex-column">
+                                  <p class="mb-1 small text-primary">Total amount due</p>
+                                  <h6 class="mb-0 text-primary">3000 BDT</h6>
+                                </div>
+                              </div>
+                            </div>
+              
+              
+                          <div>
+                           <a href="/PaymentDone"> <center><button type="button" class="btn btn-primary btn-lg">Pay amount</button></center></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+   
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<br><br><br>
+</div>
+  
+
+{% endblock body %}
